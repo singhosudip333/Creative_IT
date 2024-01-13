@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <div>
+        <center>
+            <h1> Register Yourself </h1>
+        </center>
+    </div>
+
+    <hr><br>
+
+    <fieldset>
+        <legend>Registration form</legend>
+        <br><br>
+        <form action="#">
+            <label for="firstname">  Your first name : </label>
+            <input type="text" id="firstname" placeholder="First Name">
+
+            <span>&emsp;&emsp;</span>
+
+            <label for="lastname">  Your last name : </label>
+            <input type="text" id="lastname" placeholder="Last Name">
+
+            <br><br>
+
+            <label for="email">  Your Email : </label>
+            <span>&emsp;</span>
+            <input type="email" id="email" placeholder="Email">
+
+            <span>&emsp;&emsp;</span>
+
+            <label for="number">  Your Phone Number : </label>
+            <input type="number" id="number" placeholder="Phone Number">
+
+            <br><br>
+
+            <label for="password">  Your Password : </label>
+            <input type="password" id="password" placeholder="Password">
+
+            <span>&emsp;&emsp;</span>
+
+            <label for="rpassword"> Re type Your Password : </label>
+            <input type="password" id="rpassword" placeholder="Re-type Password">
+
+            <br><br>
+
+            <label for="address"> Permanent Address : </label><br>
+            <textarea id="address" cols="30" rows="5"> Full Address </textarea>
+
+            <br><br>
+
+            <label for="birth"> Date of Birth : </label><br>
+            <input type="date" id="birth">
+
+            <span>&emsp;&emsp;</span>
+
+            <label for="district"> Your District : </label>
+            <select  id="district">
+                <option value="sylhet"> Sylhet </option>
+                <option value="dhaka"> Dhaka </option>
+                <option value="khulna"> Khulna </option>
+                <option value="Barishal"> Barishal </option>
+            </select>
+
+            <br><br>
+
+            <label for="gender">Gender : </label>
+
+            <input type="radio" id="male" name="x">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="x">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="x">
+            <label for="other">Other</label>
+
+            <br><br>
+
+            <center>
+                <input type="submit" > 
+            </center>
+
+        </form><br><br>
+    </fieldset>
+
+
+</body>
+</html>
