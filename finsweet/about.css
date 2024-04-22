@@ -1,0 +1,337 @@
+/* Resetting default browser styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, ol , ul{
+    list-style: none;
+}
+
+/* Global Typography */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --blue-colour:#1C1E53;
+    --gray-colour:#F4F6FC;
+    --text-colur:#282938;
+    --white-colour:#ffffff;
+    --yellow-colour:#FCD980;
+}
+
+/* Resetting default browser styles */
+
+/* ============================== Navber ======================= */
+
+.customNav{
+    background-color: var(--blue-colour);
+}
+
+.customItem{
+    padding: 0 20px;
+    color: #BBBBCB;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.customItem:hover{
+    color: var(--white-colour);
+}
+
+.custombtn{
+    padding: 14px 40px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.3);
+    color: var(--white-colour);
+    background-color: var(--blue-colour);
+    font-size: 18px;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+
+.custombtn:hover{
+    border: 2px solid var(--white-colour);
+}
+
+/* ============================== Navber ======================= */
+
+
+/* ============================== About us ======================= */
+
+#aboutus{
+    padding: 100px 0px;
+}
+.aboutus__Left__title{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-colur);
+}
+.aboutus__Left__head{
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--text-colur);
+    padding: 25px 0;
+}
+.aboutus__Left__body{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    line-height: 30px;
+}
+/* ============================== About us ======================= */
+
+
+/* ============================== Goals part ======================= */
+
+#goals{
+    padding-bottom:80px;
+}
+.goals__Top{
+    background-color: var(--gray-colour);
+    padding: 50px;
+}
+.goals__Left__p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-colur);
+    line-height: 25px;
+}
+.goals__h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--text-colur);
+    padding: 20px 0;
+}
+.goals__p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    line-height: 30px;
+}
+
+/* ============================== Goals part ======================= */
+
+
+/* ========================   Process part =========================== */
+
+#process{
+    padding: 70px 0 120px 0;
+}
+.process__heading__h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--text-colur);
+}
+.process__step__icon{
+    display: flex;
+    align-items: center;
+}
+.custom__border{
+    border-top: 1px dashed #0c5fed;
+    width: 180px;
+    margin-left: 30px;
+}
+.process__step__h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-colur);
+    margin-bottom: 10px;
+}
+.process__step__p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    line-height: 30px;
+}
+
+/* ========================   Process part =========================== */
+
+/* ========================   Mission part =========================== */
+
+#mission{
+    padding: 100px 0;
+    background-color: var(--gray-colour);
+}
+.mission__title{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-colur);
+}
+.mission__heading{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--text-colur);
+    padding: 15px 0;
+}
+.mission__body{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    line-height: 30px;
+}
+/* ========================   Mission part =========================== */
+
+/*  ========================   Benifit part =========================== */
+
+#benifit{
+    padding: 100px 0;
+}
+.benifit__head{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--text-colur);
+    padding-bottom: 15px;
+}
+.serviceitem{
+    background-color: var(--gray-colour);
+    padding: 35px 30px;
+    border-radius: 10px;
+}
+.serviceitem__icon{
+    font-size: 28px;
+    color: #2405F2;
+}
+.serviceitem__h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.serviceitem__p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    line-height: 28px;
+}
+.benifit__bottom__h3{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--text-colur);
+}
+.benifit__bottom__p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    margin-top: 10px;
+}
+
+
+/*  ========================   Benifit part =========================== */
+/*  ========================   Benifit part =========================== */
+
+#team{
+    padding: 100px 0;
+    background-color: var(--gray-colour);
+}
+.team__head__h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--text-colur);
+}
+
+.team__item{
+    padding: 40px;
+    background: var(--white-colour);
+}
+
+.team__item__h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-colur);
+}
+.team__item__p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    margin-top: 10px;
+}
+
+
+/*  ========================   Team part =========================== */
+
+/* ================================= footer Part ===================== */
+
+
+#footerpart{
+    background-color: var(--blue-colour);
+    padding: 70px 50px 0 50px;
+}
+.footerTopLeft__p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.footerTopBottom h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.footerTopBottom a{
+    color: #1C1E53;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.footerLeftBottom{
+    background-color: var(--yellow-colour);
+    margin-top: 70px;
+    padding: 15px 10px;
+}
+.footerRight__h3{
+    font-size: 48px;
+    font-weight: 600;
+}
+.footerRight__p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons a{
+    padding: 10px;
+    color: white;
+}
+#footerbottom{
+    padding: 15px 0px;
+}
+.footernav__left{
+    font-size:16px ;
+    font-weight: 500;
+}
+.footernav__item{
+    font-size:16px ;
+    font-weight: 500;
+    color: var(--text-colur);
+    margin-left: 40px;
+}
+
+/* ================================= footer Part ===================== */
+
+

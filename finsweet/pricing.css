@@ -1,0 +1,235 @@
+/* Resetting default browser styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, ol , ul{
+    list-style: none;
+}
+
+/* Global Typography */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --blue-colour:#1C1E53;
+    --gray-colour:#F4F6FC;
+    --text-colur:#282938;
+    --white-colour:#ffffff;
+    --yellow-colour:#FCD980;
+}
+
+/* Resetting default browser styles */
+
+/* ============================== Navber ======================= */
+
+.customNav{
+    background-color: var(--blue-colour);
+}
+
+.customItem{
+    padding: 0 20px;
+    color: #BBBBCB;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.customItem:hover{
+    color: var(--white-colour);
+}
+
+.custombtn{
+    padding: 14px 40px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.3);
+    color: var(--white-colour);
+    background-color: var(--blue-colour);
+    font-size: 18px;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+
+.custombtn:hover{
+    border: 2px solid var(--white-colour);
+}
+
+/* ============================== Navber ======================= */
+
+
+/* ============================== Pricing ======================= */
+
+#pricing{
+    padding: 100px 0;
+}
+
+.pricing__head__h3{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--text-colur);
+}
+.pricing__head__p{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    line-height: 30px;
+}
+.pricing__item{
+    padding: 60px 50px;
+    background-color: var(--gray-colour);
+    border-radius: 12px;
+}
+.pricing__amount__h3{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--text-colur);
+}
+.pricing__amount__p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2405F2;
+    margin-left: 10px;
+}
+.pricing__item__title{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-colur);
+    margin-bottom: 10px;
+}
+.pricing__item__detail{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+    line-height: 25px;
+}
+.pricing__services ul li{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-colur);
+}
+.custom__icon{
+    font-size: 30px;
+    color: #97DAAD;
+    padding-right: 15px;
+
+}
+.custom__icon__off{
+    font-size: 30px;
+    color: #ada9aa;
+    padding-right: 15px;
+}
+.pricing__button{
+    margin-top: 50px;
+}
+.pricing__button a {
+    background-color: #282938;
+    width: 100px;
+    padding: 15px 45px;
+    margin: auto;
+    border-radius: 70px;
+    color: white;
+}
+.pricing__services{
+    height: 270px;
+}
+
+/* ============================== Pricing ======================= */
+
+
+/* ================================= FAQ Part ================== */
+
+#faq{
+    padding: 120px 0;
+}
+.faqleft__a {
+    margin-top: 20px;
+}
+/* ================================= FAQ Part ================== */
+
+
+/* ================================= footer Part ===================== */
+
+
+#footerpart{
+    background-color: var(--blue-colour);
+    padding: 70px 50px 0 50px;
+}
+.footerTopLeft__p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.footerTopBottom h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.footerTopBottom a{
+    color: #1C1E53;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.footerLeftBottom{
+    background-color: var(--yellow-colour);
+    margin-top: 70px;
+    padding: 15px 10px;
+}
+.footerRight__h3{
+    font-size: 48px;
+    font-weight: 600;
+}
+.footerRight__p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons a{
+    padding: 10px;
+    color: white;
+}
+#footerbottom{
+    padding: 15px 0px;
+}
+.footernav__left{
+    font-size:16px ;
+    font-weight: 500;
+}
+.footernav__item{
+    font-size:16px ;
+    font-weight: 500;
+    color: var(--text-colur);
+    margin-left: 40px;
+}
+
+/* ================================= footer Part ===================== */

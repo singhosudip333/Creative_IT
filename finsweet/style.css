@@ -1,0 +1,476 @@
+/* Resetting default browser styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, ol , ul{
+    list-style: none;
+}
+
+/* Global Typography */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --blue-colour:#1C1E53;
+    --gray-colour:#F4F6FC;
+    --text-colur:#282938;
+    --white-colour:#ffffff;
+    --yellow-colour:#FCD980;
+}
+
+/* ============================= Custom CSS ==================== */
+
+/* ============================== Navber ======================= */
+
+.customNav{
+    background-color: var(--blue-colour);
+}
+
+.customItem{
+    padding: 0 20px;
+    color: #BBBBCB;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.customItem:hover{
+    color: var(--white-colour);
+}
+
+.custombtn{
+    padding: 14px 40px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.3);
+    color: var(--white-colour);
+    background-color: var(--blue-colour);
+    font-size: 18px;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+
+.custombtn:hover{
+    border: 2px solid var(--white-colour);
+}
+
+/* ============================== Navber ======================= */
+
+
+/* ============================== Banner ====================== */
+
+#bannerpart{
+    padding: 100px 0;
+    background: var(--blue-colour);
+}
+
+.bannerLeft__h1{
+    color: var(--white-colour);
+    font-size: 50px;
+    font-weight: 600;
+}
+.bannerLeft__p{
+    color: var(--white-colour);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.custombtn_2{
+    padding: 13px 25px;
+    border-radius: 40px;
+    background-color: var(--yellow-colour);
+    font-size: 18px;
+    font-weight: 500;
+}
+.bannerLeft__viewPricing__p{
+    color: var(--white-colour);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ==================================== Banner ===================== */
+
+/* ================================== How we work ================== */
+#wokpart{
+    padding: 100px 0px;
+    background-color: var(--gray-colour);
+}
+.wokpart__left__h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--text-colur);
+}
+.wokpart__left__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur)
+}
+.wokpart__left__p__arrow{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2405F2;
+}
+.workpart__right__h4{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--text-colur);
+}
+.workpart__right__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur);
+    opacity: 0.6;
+}
+/* =================================== How we work ================== */
+
+/* ============================== View our projects ================= */
+.viewprojectleft{
+    overflow: hidden;
+}
+.viewprojectleft:hover .viewprojectleft__overlay{
+    left: 0;
+}
+.viewprojectleft__overlay{
+    height: 100%;
+    position: absolute;
+    width: 45%;
+    background: rgb(28,30,83);
+    background: linear-gradient(270deg, rgba(28,30,83,0.8519782913165266) 0%, rgba(56,65,103,0.711922268907563) 35%);
+    top: 0;
+    left: -440px;
+    transition: all linear 0.4s;
+}
+.overlay_content{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 35px 50px;
+    row-gap: 15px;
+}
+.overlay_content__h3{
+    font-size: 25px;
+    color: var(--white-colour);
+    font-weight: 600;
+}
+.overlay_content__p{
+    font-size: 15px;
+    color: var(--white-colour);
+    font-weight: 500;
+}
+.overlay_content__icon{
+    font-size: 18px;
+    color: var(--yellow-colour);
+    font-weight: 500;
+}
+.viewprojectright1{
+    overflow: hidden;
+}
+.viewprojectright1:hover .viewprojectright1__overlay{
+    left: 0;
+}
+.viewprojectright1__overlay{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: rgb(28,30,83);
+    background: linear-gradient(270deg, rgba(28,30,83,0.8519782913165266) 0%, rgba(56,65,103,0.711922268907563) 35%);
+    top: 0;
+    left: -100%;
+    transition: all linear 0.4s;
+}
+.overlay2_content{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0px 35px 50px;
+    row-gap: 15px;
+}
+.viewprojectright2{
+    overflow: hidden;
+}
+.viewprojectright2:hover .viewprojectright2__overlay{
+    left: 0;
+}
+.viewprojectright2__overlay{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: rgb(28,30,83);
+    background: linear-gradient(270deg, rgba(28,30,83,0.8519782913165266) 0%, rgba(56,65,103,0.711922268907563) 35%);
+    top: 0;
+    left: -100%;
+    transition: all linear 0.4s;
+}
+
+/* ============================== View our projects ============= */
+
+
+/* ============================== Service Part ================== */
+
+#servicepart{
+    background-color: var(--gray-colour);
+    padding: 100px 0px;
+}
+.servicepart__heading__h3{
+    font-weight: 600;
+    font-size: 48px;
+}
+.serviceitem{
+    background-color: #fff;
+    padding: 35px 30px;
+    border-radius: 10px;
+}
+.serviceitem__icon{
+    font-size: 28px;
+    color: #2405F2;
+}
+.serviceitem__h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.serviceitem__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur);
+    line-height: 28px;
+}
+/* ================================= Service Part ================= */
+
+/* ================================= Testimonial ================== */
+#testimonialpart{
+    padding: 120px 0;
+    background-color: #F9FBFD;
+}
+.testimonialleft__h3{
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.testimonialleft__p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-colur);
+}
+.testimonialright__h3{
+    font-weight: 500;
+    font-size: 32px;
+}
+.testimonialright__user{
+    margin-top: 60px;
+    display:flex ;
+    align-items: center;
+}
+.userdetails__h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+.userdetails__p{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--text-colur);
+}
+/* ================================= Testimonial =============== */
+
+/* ================================= FAQ Part ================== */
+
+#faq{
+    padding: 120px 0;
+}
+.faqleft__a {
+    margin-top: 20px;
+}
+/* ================================= FAQ Part ================== */
+
+/* ================================= inquiry Part ============== */
+
+#inquiry{
+    padding: 60px 0;
+}
+.inquary_left{
+    background: url(./photos/woman-writing-on-paper-3228878.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center
+}
+.inquary_left::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #1c1e5369;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.inquary_left_content{
+    width: 400px;
+    margin-top: 100px;
+    color: #fff;
+}
+.inquary_left_content__h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.inquary_left_content__p{
+    font-size: 16px;
+    font-weight:500 ;
+}
+.inquiry__right{
+    background: #1C1E53;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inquiry__right__content{
+    width: 400px;
+    color: white;
+}
+.inquiry__right__content__h4{
+    font-size: 32px;
+    font-weight: 500;
+}
+.inquiry__right__content__p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--gray-colour);
+}
+.inquiry__input{
+    outline: none;
+    border: none;
+}
+.inquiry__btn{
+    background-color: #FCD980;
+}
+/* ================================= inquiry Part ================== */
+
+
+/* ================================= blog Part ===================== */
+#blogpart{
+    padding: 60px 0;
+}
+.blog_heading{
+    font-weight: 600;
+}
+.blog__date{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text-colur);
+}
+.blog__title{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 10px;
+    color: var(--text-colur);
+}
+.blog_detail{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--text-colur);
+}
+.blog__arrow{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-colur);
+}
+
+/* ================================= blog Part ===================== */
+
+/* ================================= footer Part ===================== */
+
+
+#footerpart{
+    background-color: var(--blue-colour);
+    padding: 70px 50px 0 50px;
+}
+.footerTopLeft__p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.footerTopBottom h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.footerTopBottom a{
+    color: #1C1E53;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.footerLeftBottom{
+    background-color: var(--yellow-colour);
+    margin-top: 70px;
+    padding: 15px 10px;
+}
+.footerRight__h3{
+    font-size: 48px;
+    font-weight: 600;
+}
+.footerRight__p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons a{
+    padding: 10px;
+    color: white;
+}
+#footerbottom{
+    padding: 15px 0px;
+}
+.footernav__left{
+    font-size:16px ;
+    font-weight: 500;
+}
+.footernav__item{
+    font-size:16px ;
+    font-weight: 500;
+    color: var(--text-colur);
+    margin-left: 40px;
+}
+
+/* ================================= footer Part ===================== */
+
+
+/* ============ Custom CSS ================== */
